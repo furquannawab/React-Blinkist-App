@@ -16,7 +16,7 @@ interface ButtonProps {
   height?: string;
   hoverColor?: string;
   hoverTextColor?: string;
-  variant?: "text" | "outlined" | "contained" | undefined;
+  variant?: "text" | "outlined" | "contained";
   align?:
     | "flex-start"
     | "flex-end"
@@ -39,8 +39,7 @@ interface ButtonProps {
     | "subtitle2"
     | "body1"
     | "body2"
-    | "overline"
-    | undefined;
+    | "overline";
 }
 
 const FilledButton: React.FC<ButtonProps> = ({
