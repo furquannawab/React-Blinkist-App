@@ -2,7 +2,6 @@ import { Button } from "@mui/material";
 import React from "react";
 import TypographyComponent from "../../atoms/Typography";
 import { styled, experimental_sx as sx } from "@mui/system";
-// import Icon from "../../atoms/Icon";
 
 interface ButtonProps {
   textColor?: string;
@@ -26,7 +25,7 @@ interface ButtonProps {
     | "space-between"
     | "space-around"
     | "space-evenly";
-  variant?: "text" | "outlined" | "contained" | undefined;
+  variant?: "text" | "outlined" | "contained";
   textVariant?:
     | "button"
     | "caption"
@@ -41,8 +40,7 @@ interface ButtonProps {
     | "subtitle2"
     | "body1"
     | "body2"
-    | "overline"
-    | undefined;
+    | "overline";
 }
 
 const NavButton: React.FC<ButtonProps> = ({
