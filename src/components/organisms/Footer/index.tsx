@@ -42,12 +42,11 @@ const Footer = () => {
                   children={content.heading}
                   color="textColors.highEmphasis"
                 />
-                {content.content.map((item, index) => (
+                {content.content.map((item) => (
                   <TypographyComponent
                     variant="body2"
                     color="textColors.mediumEmphasis"
                     children={item}
-                    key={index}
                   />
                 ))}
               </Stack>
