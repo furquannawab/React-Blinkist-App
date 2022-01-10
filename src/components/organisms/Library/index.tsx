@@ -89,7 +89,7 @@ const Library: React.FC<LibraryProps> = () => {
             ))}
           </Grid>
         ) : (
-          !(name === "") && (
+          name !== "" && (
             <Grid container mt={1} spacing={5}>
               <Grid item xs={4}>
                 <BookCard book={finishedBook[0].book} />

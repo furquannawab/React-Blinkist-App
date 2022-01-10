@@ -1,5 +1,5 @@
 import SelectedPageContent from ".";
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { ComponentMeta } from "@storybook/react";
 
 export default {
   title: "Organisms/SelectedPageContent",
