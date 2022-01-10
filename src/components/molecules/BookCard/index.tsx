@@ -44,6 +44,32 @@ const IconBox = styled(Box)({
 const BookCard: React.FC<CardProps> = ({ book, showAdd = false }) => {
   const { status } = useContext(statusContext);
 
+  const checkStatus = () => {
+    if (status === "reading") {
+      return (
+        <>
+          <img
+            src="./images/Rectangle 6.png"
+            alt="Rectangle"
+            style={{ width: "100%", height: "15px" }}
+          />
+          <img
+            src="./images/Rectangle 7.png"
+            alt="Small Rectangle"
+            style={{ position: "absolute", height: "15px" }}
+          />
+        </>
+      );
+    } else {
+      return (
+        <img
+          src="./images/Rectangle 10.png"
+          alt="Small Full Rectangle"
+          style={{ width: "100%", height: "15px" }}
+        />
+      );
+    }
+  };
   return (
     <Box data-testid="bookCard">
       <Card
@@ -122,28 +148,7 @@ const BookCard: React.FC<CardProps> = ({ book, showAdd = false }) => {
           hoverTextColor="background.default"
         />
       ) : (
-        <Box sx={{ display: "flex" }}>
-          {status === "reading" ? (
-            <>
-              <img
-                src="./images/Rectangle 6.png"
-                alt="Rectangle"
-                style={{ width: "100%", height: "15px" }}
-              />
-              <img
-                src="./images/Rectangle 7.png"
-                alt="Small Rectangle"
-                style={{ position: "absolute", height: "15px" }}
-              />
-            </>
-          ) : (
-            <img
-              src="./images/Rectangle 10.png"
-              alt="Small Full Rectangle"
-              style={{ width: "100%", height: "15px" }}
-            />
-          )}
-        </Box>
+        <Box sx={{ display: "flex" }}>{checkStatus()}</Box>
       )}
     </Box>
   );
