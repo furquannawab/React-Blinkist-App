@@ -35,51 +35,23 @@ const Footer = () => {
         </Grid>
         <Grid item lg={7} ml={16}>
           <Stack spacing={8} direction="row">
-            <Stack spacing={2} alignItems="flex-start">
-              <TypographyComponent
-                variant="body1"
-                children={data.footer.editorialHeading}
-                color="textColors.highEmphasis"
-              />
-              {data.footer.editorialContent.map((content, index) => (
+            {data.footer.options.map((content, index) => (
+              <Stack spacing={2} alignItems="flex-start" key={index}>
                 <TypographyComponent
-                  variant="body2"
-                  color="textColors.mediumEmphasis"
-                  children={content}
-                  key={index}
+                  variant="body1"
+                  children={content.heading}
+                  color="textColors.highEmphasis"
                 />
-              ))}
-            </Stack>
-            <Stack spacing={2} alignItems="flex-start">
-              <TypographyComponent
-                variant="body1"
-                children={data.footer.usefulHeading}
-                color="textColors.highEmphasis"
-              />
-              {data.footer.usefulContent.map((content, index) => (
-                <TypographyComponent
-                  variant="body2"
-                  color="textColors.mediumEmphasis"
-                  children={content}
-                  key={index}
-                />
-              ))}
-            </Stack>
-            <Stack spacing={2} alignItems="flex-start">
-              <TypographyComponent
-                variant="body1"
-                children={data.footer.companyHeading}
-                color="textColors.highEmphasis"
-              />
-              {data.footer.companyContent.map((content, index) => (
-                <TypographyComponent
-                  variant="body2"
-                  color="textColors.mediumEmphasis"
-                  children={content}
-                  key={index}
-                />
-              ))}
-            </Stack>
+                {content.content.map((item, index) => (
+                  <TypographyComponent
+                    variant="body2"
+                    color="textColors.mediumEmphasis"
+                    children={item}
+                    key={index}
+                  />
+                ))}
+              </Stack>
+            ))}
           </Stack>
         </Grid>
         <Grid item lg={4.5} ml={-5}>

@@ -10,6 +10,7 @@ import nameContext from "./assets/context/nameContext";
 function App() {
   const [status, setStatus] = useState("reading");
   const [name, setName] = useState("");
+  console.log(setName);
 
   return (
     <statusContext.Provider value={{ status, setStatus }}>

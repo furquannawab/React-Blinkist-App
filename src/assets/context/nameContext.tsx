@@ -2,7 +2,7 @@ import { createContext } from "react";
 
 const nameContext = createContext({
   name: "",
-  setName: (name: string) => undefined,
+  setName: (newName: string) => {},
 });
 
 export default nameContext;
