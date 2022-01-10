@@ -34,6 +34,7 @@ const TypographyComponent: React.FC<TypographyProps> = ({
       variant={variant}
       color={color}
       sx={{ textAlign: "left", width: width }}
+      data-testid="typography"
     >
       {children}
     </Typography>
