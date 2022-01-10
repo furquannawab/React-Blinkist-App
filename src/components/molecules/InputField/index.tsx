@@ -11,6 +11,7 @@ interface InputProps {
 const InputField: React.FC<InputProps> = ({ url, alt, text }) => {
   return (
     <Input
+      data-testid="input"
       sx={{ pb: 2 }}
       startAdornment={
         <InputAdornment position="start">

@@ -28,7 +28,7 @@ const Library: React.FC<LibraryProps> = () => {
   };
 
   return (
-    <RootContainer>
+    <RootContainer data-testid="library">
       <Box sx={{ width: "95%", ml: 4 }}>
         <TypographyComponent
           variant="h1"

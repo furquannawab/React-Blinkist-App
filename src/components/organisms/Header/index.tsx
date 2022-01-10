@@ -26,6 +26,7 @@ const Header = () => {
   return (
     <>
       <Box
+        data-testid="header"
         sx={{
           zIndex: 100,
           width: "100%",
@@ -95,7 +96,7 @@ const Header = () => {
           )}
         </Container>
 
-        {exploreModal && <ExploreModal openPopUp={exploreModal} />}
+        {exploreModal && <ExploreModal />}
       </Box>
     </>
   );

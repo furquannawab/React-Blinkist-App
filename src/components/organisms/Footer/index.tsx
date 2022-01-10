@@ -6,6 +6,7 @@ import logo from "../../../assets/images/Blinkist.png";
 const Footer = () => {
   return (
     <Box
+      data-testid="footer"
       sx={{
         bgcolor: "background.paper",
         width: "100%",

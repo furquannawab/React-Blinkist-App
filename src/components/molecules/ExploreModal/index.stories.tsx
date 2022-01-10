@@ -11,6 +11,4 @@ const Template: ComponentStory<typeof ExploreModal> = (args) => (
 );
 
 export const ExploreModal1 = Template.bind({});
-ExploreModal1.args = {
-  openPopUp: true,
-};
+ExploreModal1.args = {};

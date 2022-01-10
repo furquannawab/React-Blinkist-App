@@ -23,7 +23,7 @@ const BookDetailView = () => {
   const { setName } = useContext(nameContext);
 
   return (
-    <Container sx={{ height: "80vh", mt: "8vh" }}>
+    <Container sx={{ height: "80vh", mt: "8vh" }} data-testid="bookDetail">
       <FlexContainer>
         <Box sx={{ mb: -4 }}>
           <TypographyComponent

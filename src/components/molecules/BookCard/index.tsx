@@ -45,7 +45,7 @@ const BookCard: React.FC<CardProps> = ({ book, showAdd = false }) => {
   const { status } = useContext(statusContext);
 
   return (
-    <Box>
+    <Box data-testid="bookCard">
       <Card
         sx={{
           border: "1px solid #E1ECFC",

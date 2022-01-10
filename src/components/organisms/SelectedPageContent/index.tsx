@@ -12,6 +12,7 @@ interface Props {}
 const SelectedPageContent: React.FC<Props> = () => {
   return (
     <Container
+      data-testid="pageContent"
       sx={{
         display: "flex",
         flexDirection: "column",
@@ -39,7 +40,7 @@ const SelectedPageContent: React.FC<Props> = () => {
           </Box>
           <Grid container spacing={5}>
             {content.books.map((book, index) => (
-              <Grid item xs={4}>
+              <Grid item xs={4} key={index}>
                 {index === 1 ? (
                   <Link to="/detail" style={{ textDecoration: "none" }}>
                     <BookCard

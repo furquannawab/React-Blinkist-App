@@ -7,7 +7,12 @@ interface Props {}
 
 const Banner: React.FC<Props> = () => {
   return (
-    <Box width="100%" height="30vh" sx={{ bgcolor: "background.paper" }}>
+    <Box
+      width="100%"
+      height="30vh"
+      sx={{ bgcolor: "background.paper" }}
+      data-testid="banner"
+    >
       <Grid container>
         <Grid item xs={8}>
           <Grid container spacing={2} sx={{ ml: 10, mt: 5 }}>

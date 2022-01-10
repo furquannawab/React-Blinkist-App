@@ -5,11 +5,9 @@ import TypographyComponent from "../../atoms/Typography";
 import { Link } from "react-router-dom";
 import FilledButton from "../FilledButton";
 
-interface ModalProps {
-  openPopUp: boolean;
-}
+interface ModalProps {}
 
-const ExploreModal: React.FC<ModalProps> = ({ openPopUp }) => {
+const ExploreModal: React.FC<ModalProps> = () => {
   return (
     <>
       <Box
@@ -21,6 +19,7 @@ const ExploreModal: React.FC<ModalProps> = ({ openPopUp }) => {
           top: "60px",
           zIndex: 100,
         }}
+        data-testid="exploreModal"
       >
         <Container sx={{ mt: 4 }}>
           <Box sx={{ display: "flex" }}>
