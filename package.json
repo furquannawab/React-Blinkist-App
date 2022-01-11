@@ -76,7 +76,7 @@
     "testResultsProcessor": "jest-sonar-reporter",
     "collectCoverageFrom": [
       "src/**/**/**/*.tsx",
-      "src/**/**/**/*.stories.tsx"
+      "!src/**/**/**/*.stories.tsx"
     ]
   }
 }
