@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/organisms/Header/index.test.tsx">
+    <testCase name="should render Header component" duration="325"/>
+    <testCase name="should contain logo" duration="71"/>
+    <testCase name="should have explore button" duration="70"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/molecules/ExploreModal/index.test.tsx">
+    <testCase name="should render the Book Card component" duration="443"/>
+    <testCase name="should have the Entrepreneurship button" duration="279"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/organisms/Footer/index.test.tsx">
+    <testCase name="should render the book detail" duration="194"/>
+    <testCase name="should contain the logo" duration="47"/>
+    <testCase name="should have the title" duration="71"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/molecules/FilledButton/index.test.tsx">
+    <testCase name="should render the Filled Button" duration="242"/>
+    <testCase name="should contain the label text given" duration="47"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/molecules/InputField/index.test.tsx">
+    <testCase name="should render the Input component" duration="144"/>
+    <testCase name="should contain the given label text" duration="31"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/molecules/Banner/index.test.tsx">
+    <testCase name="should render the Banner component" duration="90"/>
+    <testCase name="should contain the image" duration="26"/>
+    <testCase name="should have the title" duration="22"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/atoms/Typography/index.test.tsx">
+    <testCase name="should render Typography" duration="48"/>
+    <testCase name="should have the given text displayed" duration="7"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/molecules/NavButton/index.test.tsx">
+    <testCase name="should render the Nav Button component" duration="216"/>
+    <testCase name="should contain the text given" duration="26"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/molecules/BookCard/index.test.tsx">
+    <testCase name="should render the Book Card component" duration="138"/>
+    <testCase name="should contain the text given" duration="55"/>
+    <testCase name="should contain the author name given" duration="39"/>
+    <testCase name="should contain the time given" duration="33"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/organisms/BookDetail/index.test.tsx">
+    <testCase name="should render the book detail" duration="346"/>
+    <testCase name="should contain the read now button" duration="61"/>
+    <testCase name="should contain the Finished Reading button" duration="56"/>
+    <testCase name="should contain Link tag" duration="148"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/organisms/Library/index.test.tsx">
+    <testCase name="should render Library component" duration="476"/>
+    <testCase name="should contain Currently reading button" duration="187"/>
+    <testCase name="should contain Finished button" duration="135"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/App.test.tsx">
+    <testCase name="should render the App component" duration="515"/>
+  </file>
+  <file path="/home/furqnm/Documents/React/react-blinkist-app/src/components/organisms/SelectedPageContent/index.test.tsx">
+    <testCase name="should render Selected page component" duration="698"/>
+    <testCase name="should contain the banner" duration="193"/>
+    <testCase name="should contain the input field" duration="184"/>
+  </file>
+</testExecutions>
