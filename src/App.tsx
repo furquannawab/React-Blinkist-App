@@ -16,7 +16,7 @@ function App() {
     <statusContext.Provider value={{ status, setStatus }}>
       <nameContext.Provider value={{ name, setName }}>
         <Router>
-          <div className="App">
+          <div className="App" data-testid="app">
             <Routes>
               <Route path="/" element={<LibraryPage />} />
               <Route path="/selected" element={<EnterpreneurshipPage />} />
