@@ -3,5 +3,5 @@ projectKey=furquan
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.25934
 dashboardUrl=https://sonarcloud.io/dashboard?id=furquan
-ceTaskId=AX5JiuENMNCaSRrwETjx
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX5JiuENMNCaSRrwETjx
+ceTaskId=AX5JkSyNMNCaSRrwETsc
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX5JkSyNMNCaSRrwETsc
